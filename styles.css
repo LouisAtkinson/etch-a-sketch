@@ -1,0 +1,16 @@
+
+
+.cell {
+    border: solid;
+    border-color: black;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-right: -4px;
+    margin-top: -6px;
+    box-sizing: border-box;
+}
+
+#grid {
+    width: 800px;
+  }

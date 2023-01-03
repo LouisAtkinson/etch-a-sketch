@@ -1,0 +1,14 @@
+const grid = document.querySelector('#grid');
+
+for (let i = 1; i < 16*16; i++) {
+    const cell = document.createElement('div');
+    cell.classList.add('cell');
+    grid.appendChild(cell);
+    cell.addEventListener('mouseover', () => {
+        cell.style.backgroundColor = "red";
+    })    
+}
+
+
+
+

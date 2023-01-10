@@ -3,6 +3,10 @@
     background-color: #e0bbe4;
 }
 
+html, body {
+    padding:0; margin:0; height:100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -37,6 +41,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 60px;
+    align-items: center;
 }
 
 button {
@@ -52,8 +57,22 @@ button:hover {
 }
 
 .slider {
+    -webkit-appearance: none;
     width: 300px;
+    height: 10px;
     cursor: pointer;
+    background-color: #fec8d8;
+    border: solid 0.5px black;
+    border-radius: 12px;
+}
+
+input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #d291bc; 
+    height: 25px;
+    width: 25px;
+    border: solid 1px black;
+    border-radius: 20px;
 }
 
 .output {

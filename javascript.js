@@ -18,10 +18,10 @@ function createGrid() {
     for (let i = 0; i < slider.value*slider.value; i++) {
         const cell = document.createElement('div');
         cell.classList.add('cell');
-        cell.style.height = 700 / slider.value + "px";
-        cell.style.width = 700 / slider.value + "px";
-        grid.style.gridTemplateColumns = "repeat(" + slider.value + ", " + 700 / slider.value + "px)";
-        grid.style.gridTemplateRows = "repeat(" + slider.value + ", " + 700 / slider.value + "px)";
+        cell.style.height = 500 / slider.value + "px";
+        cell.style.width = 500 / slider.value + "px";
+        grid.style.gridTemplateColumns = "repeat(" + slider.value + ", " + 500 / slider.value + "px)";
+        grid.style.gridTemplateRows = "repeat(" + slider.value + ", " + 500 / slider.value + "px)";
         grid.appendChild(cell);
         cell.addEventListener('mouseover', () => {
             cell.style.backgroundColor = "#957dad";
@@ -34,10 +34,10 @@ slider.addEventListener("change", function () {
     for (let i = 0; i < slider.value*slider.value; i++) {
         const cell = document.createElement('div');
         cell.classList.add('cell');
-        cell.style.height = 700 / slider.value + "px";
-        cell.style.width = 700 / slider.value + "px";
-        grid.style.gridTemplateColumns = "repeat(" + slider.value + ", " + 700 / slider.value + "px)";
-        grid.style.gridTemplateRows = "repeat(" + slider.value + ", " + 700 / slider.value + "px)";
+        cell.style.height = 500 / slider.value + "px";
+        cell.style.width = 500 / slider.value + "px";
+        grid.style.gridTemplateColumns = "repeat(" + slider.value + ", " + 500 / slider.value + "px)";
+        grid.style.gridTemplateRows = "repeat(" + slider.value + ", " + 500 / slider.value + "px)";
         grid.appendChild(cell);
         cell.addEventListener('mouseover', () => {
             cell.style.backgroundColor = "#957dad";

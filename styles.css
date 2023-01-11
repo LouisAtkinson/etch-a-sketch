@@ -15,15 +15,15 @@ body {
 #header {
     display: flex;
     justify-content: center;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 700;
     margin: 20px;
 }
 
 #grid {
     box-sizing: border-box;
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     display: grid;
     margin: 0px auto 0px auto;
     border-top: solid 1px black;
@@ -37,10 +37,10 @@ body {
 }
 
 .slidecontainer {
-    margin: 30px auto;
+    margin: 40px auto;
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
     align-items: center;
 }
 
@@ -48,7 +48,7 @@ button {
     border: solid 1px black;
     border-radius: 12px;
     font-size: 20px;
-    padding: 10px;
+    padding: 8px;
     background-color: #d291bc;
 }
 
@@ -58,8 +58,8 @@ button:hover {
 
 .slider {
     -webkit-appearance: none;
-    width: 300px;
-    height: 10px;
+    width: 250px;
+    height: 8px;
     cursor: pointer;
     background-color: #fec8d8;
     border: solid 0.5px black;
@@ -80,7 +80,7 @@ input::-webkit-slider-thumb {
 }
 
 footer {
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,5 +88,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: #e0bbe4;
 }
